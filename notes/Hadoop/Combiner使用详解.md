@@ -86,7 +86,7 @@ public class MyCombiner extends Reducer<Text, IntWritable, Text, IntWritable> {
 
 Combiner继承Reducer类，其实现逻辑和Reducer是一样的，在实际的使用中，通常可以直接将Combiner设置为Reducer的实现类。
 
-在job中，we设置Combiner类:
+在job中，设置Combiner类:
 
 ```java
 job.setCombinerClass(MyCombiner.class); // 为job设置Combiner类

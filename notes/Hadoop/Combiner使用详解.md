@@ -96,11 +96,11 @@ job.setCombinerClass(MyCombiner.class); // 为job设置Combiner类
 
 （1）未使用Combiner的WordCount程序日志输出
 
-<div align="center"> <img src="https://user-images.githubusercontent.com/30204737/120894489-393bcf80-c64b-11eb-8326-20b44c2f1f49.png" > </div><br>
+<div align="center"> <img src="https://user-images.githubusercontent.com/30204737/120894489-393bcf80-c64b-11eb-8326-20b44c2f1f49.png" height="400px" > </div><br>
 
 （2）使用Combiner的WordCount程序日志输出
 
-<div align="center"> <img src="https://user-images.githubusercontent.com/30204737/120894538-80c25b80-c64b-11eb-8b22-e9fe57d2c467.png" > </div><br>
+<div align="center"> <img src="https://user-images.githubusercontent.com/30204737/120894538-80c25b80-c64b-11eb-8b22-e9fe57d2c467.png" height="400px"> </div><br>
 
 ## 5.Combiner使用注意事项
 

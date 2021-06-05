@@ -290,5 +290,5 @@ long splitSize = computeSplitSize(blockSize, minSize, maxSize); // 32M
 如果我们想要调小切片的大小：将maxSize调小；
 ```java
 mapreduce.input.fileinputformat.split.minsize=1 // 默认值为1 
-mapreduce.input.fileinputformat.split.maxsize= Long.MAXValue // 默认值Long.MAX_VALUE
+mapreduce.input.fileinputformat.split.maxsize= Long.MAX_VALUE // 默认值Long.MAX_VALUE
 ```

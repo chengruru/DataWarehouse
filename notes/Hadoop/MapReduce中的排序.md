@@ -112,5 +112,7 @@ public int compareTo(PairWritable o) {
 ```
 
 参考链接：
+
 [Hadoop：二次排序实现](https://www.jianshu.com/p/bab62802d109)
+
 [三种方法实现Hadoop(MapReduce)全局排序](https://cloud.tencent.com/developer/article/1199755)

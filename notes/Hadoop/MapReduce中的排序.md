@@ -63,7 +63,7 @@ public static class SecondPartitioner extends Partitioner<Text, IntWritable> {
 ```java
 job.setNumReduceTasks(3);
 ```
-程序执行完成后生成3个文件，这个程序生成了三个文件（因为我们设置了Reduce个数为3），而且每个文件都是局部有序；所有首字母是a-g的数据都在part-r-00000里面，所有单词首字母是h-n的数据都在part-r-00001里面，所有单词首字母是o-z的数据都在part-r-00002里面。part-r-00000、part-r-00001和part-r-00002三个文件实现了全局有序。
+程序生成了三个文件（因为我们设置了Reduce个数为3），而且每个文件都是局部有序；所有首字母是a-g的数据都在part-r-00000里面，所有单词首字母是h-n的数据都在part-r-00001里面，所有单词首字母是o-z的数据都在part-r-00002里面。part-r-00000、part-r-00001和part-r-00002三个文件实现了全局有序。
 
 ### 辅助排序（GroupingComparator分组）
 

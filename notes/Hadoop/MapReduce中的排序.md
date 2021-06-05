@@ -74,7 +74,7 @@ job.setNumReduceTasks(3);
 
 在自定义排序的过程中，如果compareTo中的条件为两个，就是二次排序。
 
-## 如何在Reduce阶段对value进行排序？ 
+## 5.如何在Reduce阶段对value进行排序？ 
 
 编写MapReduce作业时，如何做到在Reduce阶段，先对Key排序，再对Value排序？？
 

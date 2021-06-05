@@ -37,7 +37,14 @@ Combiner是一个“迷你reduce”过程，它只处理单台机器生成的数
 
 使用Combiner前后数据量对比：
 
+（1）未使用Combiner的传输数据量
+
 <div align="center"> <img src="https://user-images.githubusercontent.com/30204737/120893613-c9c3e100-c646-11eb-9b98-4b10a039a9b4.png" > </div><br>
+
+（2）使用Combiner的传输数据量
+
+<div align="center"> <img src="https://user-images.githubusercontent.com/30204737/120894585-c2eb9d00-c64b-11eb-9c9a-90ac91211654.png" > </div><br>
+
 
 可以看出，使用Combiner之后，能够节省很大的带宽。
 

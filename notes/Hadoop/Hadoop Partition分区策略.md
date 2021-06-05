@@ -120,5 +120,5 @@ job.setNumReduceTasks(2);
 
 * 如果reduce的个数 > partition分区的个数，则会产生空的part-r-000xx文件；
 * 如果1 < reduce的个数 < partition分区的个数，则有一部分数据无法安放，会抛出异常；
-* 如果 reduce的个数 = 1，会直接放回分区0，最终结果都交给一个ReduceTask，最终也只会产生一个结果文件part-r-00000；
+* 如果 reduce的个数 = 1，会直接返回分区0，最终结果都交给一个ReduceTask，最终也只会产生一个结果文件part-r-00000；
 * 分区号必须从0开始累加；

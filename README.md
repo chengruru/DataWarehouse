@@ -1,8 +1,8 @@
 <br>
 
-| 数据结构与算法 | SQL题 | 数据仓库 | Hadoop | &nbsp;Hive&nbsp;&nbsp; |  HBase  | Spark | Flink |  &nbsp;&nbsp;后记&nbsp;&nbsp; | 
+| 数据结构与算法 | SQL题 | 数据仓库 | Hadoop | Hive |  HBase  | Spark | Flink | 后记| 
 | :------------------------: | :------------------------------: | :--------------------: | :--------------------: | :----------------------------------: | :----------------------: | :----------------------: | :--------------------------: | :----------------------------------: |
-| [:art:](#art-数据结构与算法) | [:pencil2:](#pencil2-SQL题) | [:heart:](#heart-数据仓库) | [:elephant:](#elephant-Hadoop) | [:honeybee:](#honeybee-Hive) | [:dolphin:](#dolphin-HBase) | [:zap:](#zap-Spark) |   [:cloud:](#cloud-Flink)   |     [:memo:](#memo-后记)     |
+| [:art:](#art-数据结构与算法) | [:pencil2:](#pencil2-SQL题) | [:heart:](#heart-数据仓库) | [:elephant:](#elephant-Hadoop) | [:honeybee:](#honeybee-Hive) | [:dolphin:](#dolphin-HBase) | [:zap:](#zap-Spark) |   [:cloud:](#cloud-Flink)   |  [:memo:](#memo-后记)|
 
 <br>
 
